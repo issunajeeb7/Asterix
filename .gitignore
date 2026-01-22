@@ -39,3 +39,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# supabase & database migrations (internal)
+/supabase/
+
+# documentation & requirements (internal)
+prd.md
+LESSON_MIGRATION_README.md
+
+# other markdown files (keeping README.md)
+/docs/
+*.md
+!README.md
